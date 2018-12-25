@@ -1,0 +1,119 @@
+[44.970989227] 2018-12-25 13:56:57,477 - INFO - launcher: Starting sanity checks
+[44.970989227] 2018-12-25 13:56:57,477 - INFO - launcher: Checking for Python 3.5+
+[45.987844467] 2018-12-25 13:56:57,478 - INFO - launcher: Checking console encoding
+[45.987844467] 2018-12-25 13:56:57,478 - INFO - launcher: Setting console encoding to UTF-8
+[45.987844467] 2018-12-25 13:56:57,478 - INFO - launcher: Ensuring we're in the right environment
+[47.969102859] 2018-12-25 13:56:57,480 - INFO - launcher: Adding local bins/ folder to path
+[1614.004611969] 2018-12-25 13:56:59,046 - INFO - launcher: Required checks passed.
+[1614.004611969] 2018-12-25 13:56:59,046 - INFO - launcher: Optional checks passed.
+[1615.004062653] 2018-12-25 13:56:59,047 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.3985204696655273] 2018-12-25 13:56:59,830 - WARNING - musicbot.config | In config.py::MainThread(5932), line 115 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.3985204696655273] 2018-12-25 13:56:59,830 - INFO - musicbot.config | In config.py::MainThread(5932), line 126 in run_checks: Using i18n: config/i18n/en.json
+[2.4005184173583984] 2018-12-25 13:56:59,832 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 219 in _setup_logging: Set logging level to INFO
+[2.4025177955627441] 2018-12-25 13:56:59,834 - DEBUG - musicbot.json | In json.py::MainThread(5932), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.0501203536987305] 2018-12-25 13:57:00,482 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 84 in __init__: Starting MusicBot 1.9.8_3
+[3.0511178970336914] 2018-12-25 13:57:00,483 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[6.4790070056915283] 2018-12-25 13:57:03,911 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 915 in on_ready: Connection established, ready to go.
+[6.4790070056915283] 2018-12-25 13:57:03,911 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 333 in _cache_app_info: Caching app info
+[6.7388453483581543] 2018-12-25 13:57:04,171 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 737 in _scheck_ensure_env: Ensuring data folders exist
+[6.7408442497253418] 2018-12-25 13:57:04,173 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 753 in _scheck_server_permissions: Checking server permissions
+[6.7408442497253418] 2018-12-25 13:57:04,173 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 757 in _scheck_autoplaylist: Auditing autoplaylist
+[6.7408442497253418] 2018-12-25 13:57:04,173 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 761 in _scheck_configs: Validating config
+[6.7408442497253418] 2018-12-25 13:57:04,173 - DEBUG - musicbot.config | In config.py::MainThread(5932), line 216 in async_validate: Validating options...
+[6.7418427467346191] 2018-12-25 13:57:04,174 - DEBUG - musicbot.config | In config.py::MainThread(5932), line 230 in async_validate: Acquired owner id via API
+[6.7418427467346191] 2018-12-25 13:57:04,174 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 764 in _scheck_configs: Validating permissions config
+[6.7418427467346191] 2018-12-25 13:57:04,174 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5932), line 94 in async_validate: Validating permissions...
+[6.7418427467346191] 2018-12-25 13:57:04,174 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5932), line 98 in async_validate: Fixing automatic owner group
+[6.7418427467346191] 2018-12-25 13:57:04,174 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 932 in on_ready: Connected: 527007416127062037/Tavinen#1759
+[6.7428424358367920] 2018-12-25 13:57:04,175 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 940 in on_ready: Owner:     451546180791566336/Tavinen#7171
+
+[6.7428424358367920] 2018-12-25 13:57:04,175 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 943 in on_ready: Guild List:
+[6.7438414096832275] 2018-12-25 13:57:04,176 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 947 in on_ready:  - 애니메이션
+[6.7438414096832275] 2018-12-25 13:57:04,176 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 1003 in on_ready: Not bound to any text channels
+[6.7448410987854004] 2018-12-25 13:57:04,177 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 1029 in on_ready: Not autojoining any voice channels
+[6.7448410987854004] 2018-12-25 13:57:04,177 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 257 in _join_startup_channels: Found resumable voice channel 애니메이션/Private-Channel
+[6.7458405494689941] 2018-12-25 13:57:04,178 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 263 in _join_startup_channels: Found owner in "Private-Channel"
+[6.7458405494689941] 2018-12-25 13:57:04,178 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 272 in _join_startup_channels: Attempting to join 애니메이션/Private-Channel
+[7.4953789710998535] 2018-12-25 13:57:04,927 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 697 in deserialize_queue: Deserializing queue for 506440334281015319
+[7.6642739772796631] 2018-12-25 13:57:05,096 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 416 in get_player: Created player via deserialization for guild 506440334281015319 with 0 entries
+[7.6642739772796631] 2018-12-25 13:57:05,096 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 288 in _join_startup_channels: Joined 애니메이션/Private-Channel
+[7.6652734279632568] 2018-12-25 13:57:05,097 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 504 in on_player_stop: Running on_player_stop
+[9.8369348049163818] 2018-12-25 13:57:07,269 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tplay yuruyuri
+[10.6624271869659424] 2018-12-25 13:57:08,094 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 1373 in cmd_play: {'ie_key': None, 'extractor': 'generic', 'webpage_url': 'yuruyuri', 'extractor_key': 'Generic', 'url': 'ytsearch:yuruyuri', '_type': 'url', 'webpage_url_basename': 'yuruyuri'}
+[14.5930025577545166] 2018-12-25 13:57:12,025 - DEBUG - musicbot.entry | In entry.py::MainThread(5932), line 56 in get_ready_future: Created future for None
+[14.5940017700195312] 2018-12-25 13:57:12,026 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 588 in on_player_entry_added: Running on_player_entry_added
+[14.5940017700195312] 2018-12-25 13:57:12,026 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 506440334281015319
+[14.5970005989074707] 2018-12-25 13:57:12,029 - INFO - musicbot.entry | In entry.py::MainThread(5932), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=QYj3XAmVuK0
+[16.5927712917327881] 2018-12-25 13:57:14,025 - DEBUG - musicbot.entry | In entry.py::MainThread(5932), line 56 in get_ready_future: Created future for None
+[33.6082799434661865] 2018-12-25 13:57:31,040 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tskip f
+[33.6092786788940430] 2018-12-25 13:57:31,041 - ERROR - musicbot.bot | In bot.py::MainThread(5932), line 2755 in on_message: Error in skip: CommandError: 재생중이 아니라 스킵할 수 없어요!
+Traceback (most recent call last):
+  File "C:\Users\user\MusicBot\musicbot\bot.py", line 2733, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\user\MusicBot\musicbot\bot.py", line 2017, in cmd_skip
+    raise exceptions.CommandError(self.str.get('cmd-skip-none', "Can't skip! The player is not playing!"), expire_in=20)
+musicbot.exceptions.CommandError: 재생중이 아니라 스킵할 수 없어요!
+[35.8908734321594238] 2018-12-25 13:57:33,323 - INFO - musicbot.entry | In entry.py::MainThread(5932), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=QYj3XAmVuK0
+[35.8928706645965576] 2018-12-25 13:57:33,325 - FFMPEG - musicbot.player | In player.py::MainThread(5932), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-QYj3XAmVuK0-Yuru_Yuri_Nachuyachumi_OVA_English_Sub.m4a
+[35.9278492927551270] 2018-12-25 13:57:33,360 - DEBUG - musicbot.player | In player.py::MainThread(5932), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x000001E668B8EE10> using <discord.voice_client.VoiceClient object at 0x000001E6676F5F28>
+[35.9288482666015625] 2018-12-25 13:57:33,361 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 451 in on_player_play: Running on_player_play
+[35.9288482666015625] 2018-12-25 13:57:33,361 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 506440334281015319
+[43.5951235294342041] 2018-12-25 13:57:41,027 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tskip F
+[43.9379122257232666] 2018-12-25 13:57:41,370 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 508 in on_player_finished_playing: Running on_player_finished_playing
+[43.9379122257232666] 2018-12-25 13:57:41,370 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 506440334281015319
+[43.9399111270904541] 2018-12-25 13:57:41,372 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 504 in on_player_stop: Running on_player_stop
+[54.5683579444885254] 2018-12-25 13:57:52,000 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tplay yuruyuri 2 op
+[54.8491842746734619] 2018-12-25 13:57:52,281 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 1373 in cmd_play: {'ie_key': None, 'extractor': 'generic', 'webpage_url': 'yuruyuri 2 op', 'extractor_key': 'Generic', 'url': 'ytsearch:yuruyuri 2 op', '_type': 'url', 'webpage_url_basename': 'yuruyuri 2 op'}
+[58.4489655494689941] 2018-12-25 13:57:55,881 - DEBUG - musicbot.entry | In entry.py::MainThread(5932), line 56 in get_ready_future: Created future for None
+[58.4499659538269043] 2018-12-25 13:57:55,882 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 588 in on_player_entry_added: Running on_player_entry_added
+[58.4499659538269043] 2018-12-25 13:57:55,882 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 506440334281015319
+[58.4529631137847900] 2018-12-25 13:57:55,885 - INFO - musicbot.entry | In entry.py::MainThread(5932), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=cHoA1HSWvFc
+[60.4427392482757568] 2018-12-25 13:57:57,875 - DEBUG - musicbot.entry | In entry.py::MainThread(5932), line 56 in get_ready_future: Created future for None
+[60.8914594650268555] 2018-12-25 13:57:58,323 - INFO - musicbot.entry | In entry.py::MainThread(5932), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=cHoA1HSWvFc
+[60.8964581489562988] 2018-12-25 13:57:58,328 - FFMPEG - musicbot.player | In player.py::MainThread(5932), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-cHoA1HSWvFc-Yuru_Yuri_2_Op_2_Full.webm
+[60.9644143581390381] 2018-12-25 13:57:58,396 - DEBUG - musicbot.player | In player.py::MainThread(5932), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x000001E668BA52E8> using <discord.voice_client.VoiceClient object at 0x000001E6676F5F28>
+[60.9644143581390381] 2018-12-25 13:57:58,396 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 451 in on_player_play: Running on_player_play
+[60.9654145240783691] 2018-12-25 13:57:58,397 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 506440334281015319
+[234.9451563358306885] 2018-12-25 14:00:52,377 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2868 in on_guild_join: Bot has been added to guild: ETS2MCG Team Korea
+[234.9461560249328613] 2018-12-25 14:00:52,378 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 2877 in on_guild_join: Creating data folder for guild 481481504376225813
+[301.1211619377136230] 2018-12-25 14:01:58,553 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 508 in on_player_finished_playing: Running on_player_finished_playing
+[301.1221475601196289] 2018-12-25 14:01:58,554 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 506440334281015319
+[301.1241471767425537] 2018-12-25 14:01:58,556 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 504 in on_player_stop: Running on_player_stop
+[317.1445906162261963] 2018-12-25 14:02:14,577 - ERROR - musicbot.bot | In bot.py::MainThread(5932), line 903 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\client.py", line 227, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\user\MusicBot\musicbot\bot.py", line 2824, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "C:\Users\user\MusicBot\musicbot\bot.py", line 424, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use Tsummon to summon it to your voice channel.
+[331.5816924571990967] 2018-12-25 14:02:29,014 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tplay yuruyuri 1 op full
+[331.5836889743804932] 2018-12-25 14:02:29,016 - ERROR - musicbot.bot | In bot.py::MainThread(5932), line 2755 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use Tsummon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\user\MusicBot\musicbot\bot.py", line 2654, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\user\MusicBot\musicbot\bot.py", line 424, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use Tsummon to summon it to your voice channel.
+[340.5711488723754883] 2018-12-25 14:02:38,003 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tsummon
+[341.5155658721923828] 2018-12-25 14:02:38,948 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 1886 in cmd_summon: Joining ETS2MCG Team Korea/MUSIC 음악 2
+[341.5185647010803223] 2018-12-25 14:02:38,951 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 504 in on_player_stop: Running on_player_stop
+[353.1314048767089844] 2018-12-25 14:02:50,563 - INFO - musicbot.bot | In bot.py::MainThread(5932), line 2626 in on_message: 451546180791566336/Tavinen#7171: Tplay yuruyuri 1 op full
+[353.4072341918945312] 2018-12-25 14:02:50,839 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 1373 in cmd_play: {'ie_key': None, 'extractor': 'generic', 'webpage_url': 'yuruyuri 1 op full', 'extractor_key': 'Generic', 'url': 'ytsearch:yuruyuri 1 op full', '_type': 'url', 'webpage_url_basename': 'yuruyuri 1 op full'}
+[357.0170090198516846] 2018-12-25 14:02:54,449 - DEBUG - musicbot.entry | In entry.py::MainThread(5932), line 56 in get_ready_future: Created future for None
+[357.0180094242095947] 2018-12-25 14:02:54,450 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 588 in on_player_entry_added: Running on_player_entry_added
+[357.0190083980560303] 2018-12-25 14:02:54,451 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 481481504376225813
+[357.0260047912597656] 2018-12-25 14:02:54,458 - INFO - musicbot.entry | In entry.py::MainThread(5932), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=-NixrJlOCaA
+[359.0187752246856689] 2018-12-25 14:02:56,451 - DEBUG - musicbot.entry | In entry.py::MainThread(5932), line 56 in get_ready_future: Created future for None
+[359.5944206714630127] 2018-12-25 14:02:57,026 - INFO - musicbot.entry | In entry.py::MainThread(5932), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=-NixrJlOCaA
+[359.5984177589416504] 2018-12-25 14:02:57,030 - FFMPEG - musicbot.player | In player.py::MainThread(5932), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube--NixrJlOCaA-yuru_yuri_op_1_full.m4a
+[359.6273994445800781] 2018-12-25 14:02:57,059 - DEBUG - musicbot.player | In player.py::MainThread(5932), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x000001E668C16E10> using <discord.voice_client.VoiceClient object at 0x000001E668B8FEF0>
+[359.6283993721008301] 2018-12-25 14:02:57,060 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 451 in on_player_play: Running on_player_play
+[359.6283993721008301] 2018-12-25 14:02:57,060 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 481481504376225813
+[594.4193925857543945] 2018-12-25 14:06:51,851 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 508 in on_player_finished_playing: Running on_player_finished_playing
+[594.4193925857543945] 2018-12-25 14:06:51,851 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 673 in serialize_queue: Serializing queue for 481481504376225813
+[594.4223892688751221] 2018-12-25 14:06:51,854 - DEBUG - musicbot.bot | In bot.py::MainThread(5932), line 504 in on_player_stop: Running on_player_stop
